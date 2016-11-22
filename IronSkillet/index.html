@@ -1,0 +1,183 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Iron Skillet</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <style>
+
+    </style>
+  </head>
+
+  <body>
+    <!-- Desktop Navigation -->
+    <!-- Hero Section -->
+    <!-- Main Section -->
+    <!-- Footer -->
+
+
+
+  <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li class="menu-text">The Iron Skillet Family Restaurant</li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="https://www.facebook.com/IronSkilletFamilyResturant/?fref=ts">FB link</a></li>
+        </ul>
+      </div>
+    </div>
+  
+  
+		
+        <hr />
+		 <section class="main">
+			<div class="wrap row small-up-1 medium-up-2">
+				<div class="column">
+				<img src="images/skillet.jpg" class="thumbnail" alt="">
+        </div>
+				<div class="blue column"><h3>Header/About us</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget risus nibh. Pellentesque sem ligula, viverra eu sem a, bibendum convallis dolor. Fusce viverra mattis lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget risus nibh. Pellentesque sem ligula, viverra eu sem a, bibendum convallis dolor. Fusce viverra mattis lobortis.</p></div>
+			</div>
+		</section>
+
+    <section class="main">
+			<div class="wrap row small-up-1 medium-up-4">
+				<div class="special column"><img src="images/150x150.png" class="thumbnail" alt=""><h3>Special 1</h3></div>
+		        <div class="special column"><img src="images/150x150.png" class="thumbnail" alt=""><h3>Special 2</h3></div>
+		        <div class="special column"><img src="images/150x150.png" class="thumbnail" alt=""><h3>Special 3</h3></div>
+		        <div class="special column"><img src="images/150x150.png" class="thumbnail" alt=""><h3>Special 4</h3></div>
+			</div>
+	</section>
+
+	<section class="main">
+			<div class="wrap row small-up-1 medium-up-1">
+				<div class="special column"><h3>Special 1</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget risus nibh. Pellentesque sem ligula, viverra eu sem a, bibendum convallis dolor. Fusce viverra mattis lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget risus nibh. Pellentesque sem ligula, viverra eu sem a, bibendum convallis dolor. Fusce viverra mattis lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget risus nibh. Pellentesque sem ligula, viverra eu sem a, bibendum convallis dolor. Fusce viverra mattis lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget risus nibh. Pellentesque sem ligula, viverra eu sem a, bibendum convallis dolor. Fusce viverra mattis lobortis.</p></div>
+			</div>
+	</section>
+
+	<section class="taco">
+			<div class="wrap row small-up-1 medium-up-1">
+				<div class="special column"><h3>Modal</h3>
+					<!-- Trigger/Open The Modal -->
+						<button id="myBtn">View Full Menu</button>
+
+						<!-- The Modal -->
+						<div id="myModal" class="modal">
+
+						<!-- Modal content -->
+						<div class="modal-content">
+							<span class="close">x</span>
+							<iframe src="pdf.pdf"></iframe>
+						</div>
+
+					</div>
+
+				</div>
+		       
+			</div>
+	</section>
+
+
+
+		
+		<section class="main">
+			<div class="wrap row small-up-1 medium-up-2">				
+				<div class="blue column"><h3>Hours</h3>
+
+        <table>
+<tbody>
+<tr>
+<td>Monday</td>
+<td>6:30 AM - 7:00 PM</td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td>6:30 AM - 7:00 PM</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>6:30 AM - 7:00 PM</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>6:30 AM - 7:00 PM</td>
+</tr>
+<tr>
+<td>Friday</td>
+<td>6:30 AM - 7:30 PM</td>
+</tr>
+<tr>
+<td>Saturday</td>
+<td>6:30 AM - 7:00 PM</td>
+</tr>
+<tr>
+<td>Sunday</td>
+<td>7:00 AM - 4:00 PM</td>
+</tr>
+</tbody>
+</table>
+
+        </div>
+				<div class="blue column"><h3>Location</h3>
+				
+			<iframe
+			  width="400"
+			  height="350"
+			  frameborder="0" style="border:0"
+			  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBz7ohWEMmuDCuvQ_9tIwmwp0Ddu0kT3n0
+			    &q=Iron-Skillet,Lincoln+MI" allowfullscreen>
+			</iframe>
+		</div>
+		</section>
+  <script>
+    $(document).foundation();
+  </script>
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script src="js/app.js"></script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+</body>
+  
+  <footer>
+	<div class="wrap row small-up-1 medium-up-1">
+		<div class="column">
+    <h4>Copyright © KR</h4></div>
+	</div>
+	
+  </footer>
+</html>
