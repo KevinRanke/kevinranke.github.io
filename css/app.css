@@ -2,6 +2,8 @@
 GENERAL
 ************************************************************************* */
 
+
+
 .wrap{
 	width: 90%;
 	max-width:1068px;
@@ -18,7 +20,11 @@ GENERAL
     width: 95%;
 }
 
-
+.special.column{
+	padding: 0px;
+	margin: auto;
+	display: block;
+}
 
 
 
@@ -26,10 +32,6 @@ GENERAL
 
 
 /*Footer*/
-main{
-  padding: 20px;
-  background-color: #234;
-}
 footer{
   height:50px;
   margin-top:50px;
@@ -38,4 +40,13 @@ footer{
 
 footer h4{
     color: rgba(255,255,255,.8);
+}
+footer column{
+  background-color: #;
+}
+
+.specials { 
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding:0px;
+  margin:0px;
 }
